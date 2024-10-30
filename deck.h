@@ -37,5 +37,8 @@ typedef struct deck_node_s
 } deck_node_t;
 
 void sort_deck(deck_node_t **deck);
+int card_value(const char *value);
+void swap_nodes(deck_node_t **deck, deck_node_t *node1, deck_node_t *node2);
+
 
 #endif /* DECK_H */

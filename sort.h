@@ -28,5 +28,8 @@ void radix_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void counting_sort(int *array, size_t size);
+void quick_sort_recursive(int *array, size_t size, size_t low, size_t high);
+size_t hoare_partition(int *array, size_t size, size_t low, size_t high);
+
 #endif /* SORT_H */
 
